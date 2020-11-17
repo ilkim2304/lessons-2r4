@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Форма для заказа книги</h1>
+    <form action="" method="post">
+        Выберите магазин <select name="city">
+            <option>Биробиджан</option>
+            <option>Барнаул</option>
+            <option selected>Уфа</option>
+        </select>
+        <br>
+        Название книги <input type="text"><br>
+        Автор <input type="text" name="author"><br>
+        Год издания <input type="number" min="1940" max="2020" step="1" name="year"><br>
+        Количество страниц <input type="count" name="pages"><br>
+    <fieldset>
+        <legend>Категория книги</legend>
+        <input type="radio" name="category" value="JavaScript/html/css">JavaScript/html/css<br>
+        <input type="radio" name="category" value="Java">Java<br>
+        <input type="radio" name="category" value="PHP">PHP<br>
+        <input type="radio" name="category" value="Python">Python<br>
+        <input type="radio" name="category" value="C++">C++<br>
+        <input type="radio" name="category" value="assembler">Assembler<br>
+    </fieldset>
+    <fieldset>
+        <legend>Дополнительные параметры</legend>
+        <input type="checkbox" name="additional" value="Цветные картинки">Цветные картинки<br>
+        <input type="checkbox" name="additional" value="Детский формат">Детский формат<br>
+        <input type="checkbox" name="additional" checked value="Начальный уровень">Начальный уровень<br>
+        <input type="checkbox" name="additional" value="Для продвинутых">Для продвинутых<br>
+        <input type="checkbox" name="additional" value="Жесткий переплет">Жесткий переплет<br>
+    </fieldset>
+        <br>
+        <textarea name="comment" cols="20" rows="5" placeholder="Напишите ваш комментарий к заказу"></textarea>
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>

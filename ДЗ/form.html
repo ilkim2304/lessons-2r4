@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Закажите сайт!</h1>
+    <form action="" method="post">
+        Вас зовут <input type="name"><br>
+        Ваш электронный адрес <input type="email"><br>
+        Тип сайта <select name="site">
+            <option>whatever1</option>
+            <option>whatever2</option>
+            <option selected>Интернет-магазин</option>
+        </select>
+        <br>
+        <fieldset>
+            <legend>Параметры заказа</legend>
+            <input type="checkbox" name="parameters" value="Мобильная версия">Мобильная версия<br>
+            <input type="checkbox" name="parameters" value="Версия для печати">Версия для печати<br>
+            <input type="checkbox" name="parameters" value="Динамические эффекты">Динамические эффекты<br>
+            <input type="checkbox" name="parameters" value="Личный кабинет пользователя">Личный кабинет пользователя<br>
+        </fieldset>
+        <fieldset>
+            <legend>Соответствие стандартам</legend>
+            <input type="radio" name="standards" value="HTML 5">HTML <br>
+            <input type="radio" name="standards" value="HTML 4.01 Strict">HTML 4.01 Strict<br>
+            <input type="radio" name="standards" value="XHTML 1.0 Transitional">XHTML 1.0 Transitional<br>
+            </fieldset>
+            <legend>Примечания</legend>
+            <textarea name="comment" cols="45" rows="11"></textarea>
+            <br>
+            <input type="submit" value="Заказать сайт!">
+        </form>
+        </fieldset>
+    </form>
+    
+</body>
+</html>

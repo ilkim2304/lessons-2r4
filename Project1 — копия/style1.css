@@ -1,0 +1,28 @@
+h1 {
+    font-family: fantasy;
+    text-align: center;
+    color: rgb(0, 150, 0);
+    font-size: 50px;
+}
+p {
+    text-align: center;
+    font: 17px sans-serif;
+}
+.spreadsheet {
+    margin: auto;
+    font-family: fantasy;
+    font-size: 20px;
+    border: solid rgb(29, 29, 29);
+}
+td {
+    border: solid rgb(29, 29, 29);
+}
+th {
+    border: solid rgb(29, 29, 29);
+}
+tr {
+    text-align: center;
+}
+.professional {
+    color: yellow;
+}

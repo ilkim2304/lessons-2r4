@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Формы</title>
+</head>
+<body>
+    <h1>Форма заказа пиццы</h1>
+    <form action="#" method="get">
+        <!-- Пицца (Маргарита / 4 сыра / Пепперони / Чизбургер / Гавайская) -->
+        <!-- Добавки (Сыр / Мясо / Грибы / Оливки / Ананасы / Ветчина) -->
+        <!-- Количество -->
+        <!-- Оплата (карта/нал) -->
+        <!-- Адрес доставки -->
+        <!-- Имя -->
+        <!-- Телефон -->
+       Ваше имя: <input type="text" name="usr_name">
+       <br>
+       Ваш телефон: <input type="tel" name="usr_tel">
+       <br>
+       Ваша почта: <input type="email" name="usr_mail">
+       <br>
+       Адрес доставки: <input type="text" name="usr_adress">
+       <br>
+       Время доставки: <input type="time" name="usr_time">
+       <br>
+       Дата доставки: <input type="date" name="usr_date">
+       <br>
+       Время доставки: <input type="time" name="usr_time">
+       <br>
+       Сколько будет пицц? <input type="number" name="count" min="2" max="5" step="1">
+       <br>
+       Секретный код: <input type="password" name="pwd">
+       <br>
+       <h3>Выберите пиццу</h3>
+       <input type="radio" name="sort" value="Маргарита">Маргарита<br>
+       <input type="radio" name="sort" value="4 сыра">4 сыра<br>
+       <input type="radio" name="sort" value="Пепперони">Пепперони<br>
+       <input type="radio" name="sort" value="Чизбургер">Чизбергер<br>
+       <input type="radio" name="sort" value="Гавайская">Гавайская<br>
+       <h3>Способ оплаты</h3>
+       <label><input type="radio" name="pay">Картой</label>
+       <input id="cash" type="radio" name="pay">
+       <label for="cash">Наличными</label>
+       <h3>Что добавить к пицце?</h3>
+       <input type="checkbox" name="addition1">Грибы<br>
+       <input type="checkbox" name="addition2">Сыр<br>
+       <input type="checkbox" name="addition3">Мясо<br>
+       <input type="checkbox" name="addition4">Помидоры<br>
+       <input type="checkbox" name="addition5">Оливки<br>
+       <br>
+       <input type="submit" value="Submit">
+       <input type="reset" value="Очистить">
+
+       <br>
+       
+    </form>
+</body>
+</html>
